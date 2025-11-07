@@ -1,19 +1,25 @@
 {
-  "name": "express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChristopherZalapa/express.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChristopherZalapa/express/issues"
-  },
-  "homepage": "https://github.com/ChristopherZalapa/express#readme"
+	"name": "express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.mjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:dev": "nodemon ./src/index.mjs",
+		"start": "nodemon ./src/index.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ChristopherZalapa/express.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ChristopherZalapa/express/issues"
+	},
+	"homepage": "https://github.com/ChristopherZalapa/express#readme",
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	},
+	"type": "module"
 }
